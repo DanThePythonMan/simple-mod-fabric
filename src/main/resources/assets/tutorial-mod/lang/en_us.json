@@ -5,5 +5,9 @@
   "itemgroup.ruby": "Ruby Block Group",
 
   "block.tutorial-mod.ruby_block": "Block of Ruby",
-  "block.tutorial-mod.raw_ruby_block": "Block of Raw Ruby"
+  "block.tutorial-mod.raw_ruby_block": "Block of Raw Ruby",
+  "block.tutorial-mod.ruby_ore": "Ruby Ore",
+  "block.tutorial-mod.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.tutorial-mod.nether_ruby_ore": "Nether Ruby Ore",
+  "block.tutorial-mod.end_ruby_ore": "End Ruby Ore"
 }

@@ -20,10 +20,11 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_RUBY);
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RAW_RUBY_BLOCK);
+                        entries.add(ModBlocks.RUBY_ORE);
                     })).build());
 
     public  static  void registerItemGroups(){
-        TutorialMod.LOGGER.info("Registering item groups for "+TutorialMod.MOD_ID);
+        TutorialMod.LOGGER.info("Registering Item Groups for "+TutorialMod.MOD_ID);
 
     }
 }

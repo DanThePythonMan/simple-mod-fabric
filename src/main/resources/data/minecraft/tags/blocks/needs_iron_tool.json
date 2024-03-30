@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "tutorial-mod:ruby_block",
-    "tutorial-mod:raw_ruby_block"
+    "tutorial-mod:raw_ruby_block",
+    "tutorial-mod:ruby_ore"
   ]
 }
