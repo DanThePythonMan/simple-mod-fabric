@@ -13,5 +13,6 @@ public class TutorialMod implements ModInitializer {
 	public void onInitialize(){
 
 		LOGGER.info("Hello Fabric world! Tutorial Mod Loaded!");
+		LOGGER.info("Am looking forward to modding!");
 	}
 }
