@@ -1,6 +1,6 @@
 {
   "replace": false,
-  "vales": [
+  "values": [
     "tutorial-mod:ruby_block",
     "tutorial-mod:raw_ruby_block"
   ]
