@@ -1,5 +1,6 @@
 package net.danthepythonman.tutorialmod;
 
+import net.danthepythonman.tutorialmod.block.ModBlocks;
 import net.danthepythonman.tutorialmod.item.ModItemGroups;
 import net.danthepythonman.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -14,8 +15,8 @@ public class TutorialMod implements ModInitializer {
 	@Override
 	public void onInitialize(){
 		ModItemGroups.registerItemGroups();
-		LOGGER.info("Hello Fabric world! Tutorial Mod Loaded!");
-		LOGGER.info("Am looking forward to modding!");
 		ModItems.registerModItems();
+
+		ModBlocks.registerModBlocks();
 	}
 }
