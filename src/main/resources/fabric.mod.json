@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "tutorial-mod",
+	"version": "${version}",
+	"name": "Tutorial Mod",
+	"description": "This is a Tutorial Mod. Lmaoo",
+	"authors": [
+		"DanThePythonMan"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/tutorial-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.danthepythonman.tutorialmod.TutorialMod"
+		],
+		"client": [
+			"net.danthepythonman.tutorialmod.TutorialModClient"
+		],
+		"fabric-datagen": [
+			"net.danthepythonman.tutorialmod.TutorialModDataGenerator"
+		]
+	},
+	"mixins": [
+		"tutorial-mod.mixins.json",
+		{
+			"config": "tutorial-mod.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
